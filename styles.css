@@ -1,0 +1,132 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #e6f0ff;
+    color: #002244;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+h1, h2 {
+    color: #004aad;
+}
+
+header {
+    background-color: #d0e3ff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 50, 0.1);
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #004aad;
+    margin-right: 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0, 0, 80, 0.1);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
+    border-radius: 6px;
+    border: 2px solid #004aad;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+a {
+    color: #004aad;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #d0e3ff;
+    color: #002244;
+    border-radius: 6px;
+    font-size: 0.9em;
+}
+
+/* Dark Mode styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #f1f1f1;
+}
+
+body.dark-mode header {
+    background-color: #333333;
+    color: #f1f1f1;
+}
+
+body.dark-mode nav a {
+    color: #66aaff;
+}
+
+body.dark-mode nav a:hover {
+    color: #a0c4ff;
+    text-decoration: underline;
+}
+
+body.dark-mode section {
+    background-color: #1f1f1f;
+    box-shadow: 0 2px 6px rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode img {
+    border: 2px solid #66aaff;
+}
+
+body.dark-mode footer {
+    background-color: #333333;
+    color: #f1f1f1;
+}
+
+body.dark-mode #darkModeToggle {
+    background-color: #444444;
+    color: #f1f1f1;
+    border: 1px solid #666666;
+}
+
+#darkModeToggle {
+    background-color: #f1f1f1;
+    color: #333333;
+    border: 1px solid #cccccc;
+    cursor: pointer;
+}
+
+body.dark-mode #darkModeToggle:hover {
+    background-color: #666666;
+    color: #f1f1f1;
+}
+
+
